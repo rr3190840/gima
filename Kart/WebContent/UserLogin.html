@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <title>ShopingCart</title>
+      <style>
+      body{
+      	font-family:Arial,sans-serif;
+      	background-image: url("shop.png");
+        
+      }
+      .form-div{
+       
+       top:35%;
+       left:60%;
+       margin-top:-150px;
+       margin-left:-150px;
+       position:absolute;
+      	border:2px solid blue;
+      	width: 250px;
+      	text-align: center;
+      	border-radius: 15px;
+      	background-image: url("https://data.whicdn.com/images/271031151/original.gif");
+      	box-shadow: 0 0 15px red;
+      }
+      .form-div h2{
+      	 color:white;
+
+      }
+      .form1-div {
+      	 color:white;
+
+      }
+      input[type='text'],input[type='password']{
+      	height: 35px;
+      	text-align: center;
+      	border:2px solid blue;
+      	margin:5px;
+      	font-size: 18px;
+      	width:200px;
+      	border-radius:15px;
+      }
+      input[type='text']:focus,input[type='password']:focus{
+      	outline: none;
+      	background-color: lightblue;
+      }
+      input[type='submit']{
+      	background-color: blue;
+      	color:white;
+      	border:none;
+      	font-size: 18px;
+      	padding:8px 40px;
+      	border-radius: 50px;
+      	margin:5px 0 10px 0;
+      }
+      input[type='submit']:hover{
+      	opacity:0.8;
+      	cursor:pointer;
+      	box-shadow: 0 0 15px lightblue;
+      }
+      </style>
+      </head>
+      <body>
+      <!--Login form-->
+      <div class="form-div">
+      <h2>Login Here</h2>
+      <form name="form1"method="post" action="login">
+        <input type="text" placeholder="User Name" name="uname">
+        <br>
+        <input type="password" placeholder="Password" name="pass">
+        <br>
+        <input type="submit" value="Login" name="submit">
+        <a href="Register.html"><div class="form1-div">NewUser</a>
+        </form>
+        </div>
+        </body>
+        </html>
